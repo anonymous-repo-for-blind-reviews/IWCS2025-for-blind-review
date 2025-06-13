@@ -8,5 +8,5 @@ Machine translation (MT) in specialized domains often alters or omits rare and d
   <h2>Rare lemmas types, domain-specificity and manual annotations files</h2>
   The resources needed to replicate the results (the automatic portion of the annotation of the domain-specificity and rarity) and the file/s of the manual annotations.
   <h2>Lexical Divergence</h2>
-   
+  This folder contains the files for the implementation of a sentence-level evaluation metric designed to measure lexical divergence in machine-translated texts, particularly for political and humanitarian domains. It complements traditional MT metrics (e.g., BLEU, METEOR, BERTScore) by identifying whether domain-critical terms were preserved, omitted, or semantically drifted.
 </p>
