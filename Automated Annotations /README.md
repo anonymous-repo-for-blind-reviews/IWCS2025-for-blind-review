@@ -26,16 +26,6 @@ We train a classifier based on **ConfliBERT**, a domain-aware language model fin
   - Back-translation for semantic and spelling variation.
 - Four relation classes are used in this implementation (most frequent and automatable).
 
-## Performance
-
-| Class                     | F1 (Validation) | F1 (Test) |
-|--------------------------|----------------|-----------|
-| Character Set Issue      | 0.75           | 0.67      |
-| Spelling / Variant       | 0.67           | 0.64      |
-| Semantic Equivalence     | 0.56           | 0.62      |
-| Acronym / Abbreviation   | 0.56           | 0.61      |
-| **Macro Average**        | **0.64**       | **0.63**  |
-
 ## Folder Structure
 
 Automated Annotations/
