@@ -39,8 +39,13 @@ We train a classifier based on **ConfliBERT**, a domain-aware language model fin
 ## Folder Structure
 
 Automated Annotations/
+
 ├── data/ # Training_data_v4.csv
+
 ├── models/ # Fine-tuned ConfliBERT model and weights (download and pretrain ConfliBERT)
+
 ├── pred/ # mapped_prediction_data.csv
+
 ├── scripts/ # Automated_annotation_classifier.ipynb
+
 └── README.md # This file
